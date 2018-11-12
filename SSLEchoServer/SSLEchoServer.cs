@@ -67,6 +67,7 @@ namespace SSLEchoServer
                         sw.WriteLine(answer);
                     }
                     message = sr.ReadLine();
+
                 }
 
                 sslStream.Close();
